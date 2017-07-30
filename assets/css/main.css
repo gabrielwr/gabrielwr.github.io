@@ -2010,7 +2010,7 @@
 			text-align: center;
 		}
 
-			.image.thumb:after {
+			/* .image.thumb:after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
@@ -2032,7 +2032,7 @@
 				text-decoration: none;
 				top: 50%;
 				white-space: nowrap;
-			}
+			} */
 
 			.image.thumb:hover:after {
 				opacity: 1.0;
@@ -2460,6 +2460,20 @@
 			margin: 0;
 		}
 
+	.space-button {
+		margin-left: 5%;
+	}
+
+	.project-button {
+		border-color: #000;
+		color: rgb(73, 191, 151) !important;
+		size: 150% !important;
+	}
+
+	.project-button:hover {
+		border-color: #000;
+		color: #000 !important;
+	}
 /* Header */
 
 	#header {
